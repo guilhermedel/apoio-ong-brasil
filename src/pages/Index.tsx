@@ -13,8 +13,7 @@ const Index = () => {
     
     return ongsData.filter(ong => 
       ong.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      ong.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      ong.category.toLowerCase().includes(searchTerm.toLowerCase())
+      ong.description.toLowerCase().includes(searchTerm.toLowerCase())
     );
   }, [searchTerm]);
 

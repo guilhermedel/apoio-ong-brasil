@@ -17,11 +17,6 @@ const ONGCard = ({ ong }: ONGCardProps) => {
           alt={ong.title}
           className="w-full h-48 object-cover transition-transform duration-300 hover:scale-105"
         />
-        <div className="absolute top-4 left-4">
-          <Badge className="bg-blue-500 hover:bg-blue-600 text-white">
-            {ong.category}
-          </Badge>
-        </div>
       </div>
       
       <CardHeader className="pb-3">
@@ -30,7 +25,7 @@ const ONGCard = ({ ong }: ONGCardProps) => {
         </CardTitle>
         <div className="flex items-center text-gray-500 text-sm">
           <MapPin className="h-4 w-4 mr-1" />
-          {ong.location}
+          {ong.location ? ong.location : "Sem endereço fisico"}
         </div>
       </CardHeader>
       

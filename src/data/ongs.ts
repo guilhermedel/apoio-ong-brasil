@@ -4,56 +4,32 @@ import { ONG } from "@/types/ong";
 export const ongsData: ONG[] = [
   {
     id: "1",
-    title: "Educação Icaraí",
-    description: "Oferecemos reforço escolar e atividades educativas para crianças da região de Icaraí, promovendo inclusão digital e apoio pedagógico gratuito.",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=300&fit=crop",
-    category: "Educação",
-    location: "Icaraí, Niterói - RJ",
+    title: "Instituto Janeiro Branco",
+    description: "Voltado para promoção da saúde mental e autocuidado, oferece materiais de apoio, cursos e conexão com especialistas.",
+    image: "https://janeirobranco.org.br/wp-content/uploads/2024/12/2015-historia-janeiro-branco.jpg-1536x1536.png",
     website: "https://educacaoicarai.org"
   },
   {
     id: "2", 
-    title: "Preserva Jurujuba",
-    description: "Trabalhamos na preservação da natureza e educação ambiental na região da Fortaleza de Santa Cruz e Jurujuba, protegendo a biodiversidade local.",
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&h=300&fit=crop",
-    category: "Meio Ambiente",
-    location: "Jurujuba, Niterói - RJ",
-    website: "https://preservajurujuba.org"
+    title: "Rema Maré – Redes da Maré",
+    description: "Realiza eventos como a Semana de Saúde Mental na Maré, dialogando com a comunidade sobre acesso a serviços e prevenção.",
+    location: "Nova Holanda, Maré, Rio de Janeiro",
+    image: "https://www.redesdamare.org.br/media/textos/faixa-espaconormalb3010202467228a609cd2c.jpg",
+    website: "http://redesdamare.org.br/"
   },
   {
     id: "3",
-    title: "Amigos dos Bichos Niterói",
-    description: "Resgatamos e cuidamos de animais abandonados em Niterói, promovendo adoção responsável e campanhas de castração na cidade.",
-    image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?w=400&h=300&fit=crop",
-    category: "Proteção Animal",
-    location: "Centro, Niterói - RJ",
-    website: "https://amigosdosbichosni.org"
+    title: "Instituto Cactus",
+    description: "Organização filantrópica voltada à promoção de direitos humanos, cuidado e prevenção em saúde mental.",
+    image: "https://institutocactus.org.br/wp-content/uploads/2022/01/xcapa-1024x954.png.pagespeed.ic.5NL1daLf-E.webp",
+    website: "http://institutocactus.org.br/"
   },
   {
     id: "4",
-    title: "TechNit",
-    description: "Democratizamos o acesso à tecnologia em Niterói, oferecendo cursos de programação e inclusão digital para jovens da Região Oceânica.",
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop",
-    category: "Tecnologia",
-    location: "Piratininga, Niterói - RJ",
-    website: "https://technit.org"
-  },
-  {
-    id: "5",
-    title: "Saúde São Lourenço",
-    description: "Levamos atendimento médico e campanhas de prevenção para as comunidades do Morro do Estado e São Lourenço em Niterói.",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=300&fit=crop",
-    category: "Saúde",
-    location: "São Lourenço, Niterói - RJ",
-    website: "https://saudesaolourenco.org"
-  },
-  {
-    id: "6",
-    title: "Casa de Apoio Fonseca",
-    description: "Oferecemos abrigo temporário e apoio psicossocial para pessoas em situação de vulnerabilidade no bairro da Fonseca e adjacências.",
-    image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=400&h=300&fit=crop",
-    category: "Assistência Social",
-    location: "Fonseca, Niterói - RJ",
-    website: "https://casaapoiofonseca.org"
+    title: "Projeto Uerê (Complexo da Maré)",
+    description: "Atende crianças e adolescentes com traumas por meio de metodologia psicológica alinhada a educação.",
+    image: "https://static.wixstatic.com/media/c00d30_c2b20ab3ff934e8aada06950c44f3964~mv2.png/v1/fill/w_388,h_310,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Prancheta%2034%20c%C3%B3pia%2010.png",
+    location: "Laranjeiras, Rio de Janeiro",
+    website: "http://projetouere.org.br/"
   }
 ];

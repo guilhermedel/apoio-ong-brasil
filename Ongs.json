@@ -1,0 +1,22 @@
+[
+    {
+        "nome": "Instituto Janeiro Branco",
+        "descricao": "Voltado para promoção da saúde mental e autocuidado, oferece materiais de apoio, cursos e conexão com especialistas. ",
+        "link": "https://janeirobranco.org.br/"
+    },
+    {
+        "nome": "Rema Maré – Redes da Maré",
+        "descricao": "Realiza eventos como a Semana de Saúde Mental na Maré, dialogando com a comunidade sobre acesso a serviços e prevenção. ",
+        "link": "http://redesdamare.org.br/"
+    },
+    {
+        "nome": "Instituto Cactus",
+        "descricao": "Organização filantrópica voltada à promoção de direitos humanos, cuidado e prevenção em saúde mental. ",
+        "link": "https://institutocactus.org.br/"
+    },
+    {
+        "nome": "Projeto Uerê (Complexo da Maré)",
+        "descricao": "Atende crianças e adolescentes com traumas por meio de metodologia psicológica alinhada a educação. ",
+        "link": "http://projetouere.org.br/"
+    }
+]
